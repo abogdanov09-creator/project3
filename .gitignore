@@ -1,0 +1,63 @@
+# ============ PYTHON ============
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.spec
+
+# ============ ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ ============
+venv/
+env/
+ENV/
+.venv
+virtualenv/
+pyvenv.cfg
+
+# ============ IDE ============
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+.DS_Store
+
+# ============ ЛОГИ ============
+*.log
+
+# ============ ПРОЕКТНЫЕ ФАЙЛЫ ============
+.env
+.env.local
+*.pid
+
+# ============ ОС ============
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============ JUPYTER ============
+.ipynb_checkpoints/
+*.ipynb
+
+# ============ ТЕСТЫ ============
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ============ ВРЕМЕННЫЕ ФАЙЛЫ ============
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# ============ ДАННЫЕ (опционально) ============
+# Раскомментируйте, если не хотите хранить данные в репозитории
+# data/
+# *.csv
+# *.png
